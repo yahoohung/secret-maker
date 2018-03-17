@@ -1,0 +1,31 @@
+{
+  "name": "secret-maker",
+  "version": "1.0.0",
+  "description": "Encrypt and decrypt text by AES 256",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "./node_modules/mocha/bin/mocha ./dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahoohung/secret.git"
+  },
+  "keywords": [
+    "encrpty",
+    "decrypt",
+    "crypto"
+  ],
+  "author": "Marshall Chan <mc@nevesoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yahoohung/secret/issues"
+  },
+  "homepage": "https://github.com/yahoohung/secret#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "mocha": "^5.0.4"
+  }
+}

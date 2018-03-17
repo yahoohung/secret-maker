@@ -1,0 +1,15 @@
+# secret-maker
+
+```
+import Crypto from 'secret-maker'
+
+const privateKey = 'testtest'
+const crypto = new Crypto(privateKey)
+
+const rawText = '1234567890';
+
+const encryptedHash = crypto.encrypt(rawText);
+const decryptedText = crypto.decrypt(encryptedHash);
+
+console.log(rawText == decryptedText)
+```
