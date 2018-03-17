@@ -1,6 +1,11 @@
 # secret-maker
+Encrypt and decrypt text by AES 256
 
-```
+## Install
+npm i secret-maker -S
+
+## Sample
+````
 import Crypto from 'secret-maker'
 
 const privateKey = 'testtest'
@@ -12,4 +17,4 @@ const encryptedHash = crypto.encrypt(rawText);
 const decryptedText = crypto.decrypt(encryptedHash);
 
 console.log(rawText == decryptedText)
-```
+````

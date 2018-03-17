@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yahoohung/secret.git"
+    "url": "git+https://github.com/yahoohung/secret-maker.git"
   },
   "keywords": [
     "encrpty",
     "decrypt",
-    "crypto"
+    "crypto",
+    "aes-256"
   ],
   "author": "Marshall Chan <mc@nevesoft.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yahoohung/secret/issues"
+    "url": "https://github.com/yahoohung/secret-maker/issues"
   },
-  "homepage": "https://github.com/yahoohung/secret#readme",
+  "homepage": "https://github.com/yahoohung/secret-maker#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
