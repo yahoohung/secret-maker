@@ -1,8 +1,8 @@
 {
   "name": "secret-maker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Encrypt and decrypt text by AES 256",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "./node_modules/mocha/bin/mocha ./dist/test"
