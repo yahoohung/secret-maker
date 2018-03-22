@@ -7,6 +7,8 @@ npm i secret-maker -S
 ## Sample
 ````
 import Crypto from 'secret-maker'
+or 
+const Crypto = require("secret-maker").default
 
 const privateKey = 'testtest'
 const crypto = new Crypto(privateKey)
